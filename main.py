@@ -34,7 +34,7 @@ def get_db():
 
 # --- Admin login (cámbialo antes de desplegar) ---
 ADMIN_USER = "CARLOSYMAGALI"
-ADMIN_PASS = "CarlosMagali2027/%"
+ADMIN_PASS = "CarlosMagali2026/%"
 
 @app.post("/admin/login")
 def login(data: dict = Body(...)):
